@@ -1,0 +1,91 @@
+body{
+    margin: 0%;
+}
+h1{
+    font-family: 'Rubik', sans-serif;
+    font-size: 50px;
+}
+h2{
+    font-family: 'Rubik', sans-serif;
+    font-size: 40px;
+}
+h3{
+    font-family: 'Rubik', sans-serif;
+    font-size: 25px;
+}
+p{
+    text-align: justify;
+    font-family: 'Rubik', sans-serif;
+}
+ul{
+    font-family: 'Rubik', sans-serif;
+}
+.name-highlight{
+    color: orange;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+}
+.half-width h3{
+    color: purple;
+}
+.half-width p{
+    padding-right: 5%;
+}
+.half-width img{
+    width: 100%;
+    padding-left: 15%;
+}
+.top-banner{
+    /* border: 1px solid orange; */
+    background-image: url("top-banner.png");
+    height: 550px;
+    background-repeat: no-repeat;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, cyan, rgb(31, 95, 145));
+    padding: 10px 20px;
+    color: white;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.link-button-2{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,coral, chocolate);
+    padding: 10px 20px;
+    color: white;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.mid-banner{
+    /* border: 1px solid orange; */
+    background-image: url("dream-bg.png");
+    height: 650px;
+    background-repeat: no-repeat;
+    background-position:right
+}
+.half-width-2{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+}
+.half-width-2 h2{
+    color: royalblue;
+}
+.half-width-2 img{
+    width: 100%;
+    margin-right: 15%;
+}
+.half-width-2 p{
+    padding-left: 5%;
+}
+.half-width-3{
+    width: 49%;
+    float: left;
+    height: 150px;
+}
