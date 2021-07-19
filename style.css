@@ -1,5 +1,8 @@
 body{
     margin: 0%;
+    background-image: url(city-background.png);
+    background-repeat: repeat-x;
+    background-position-y: bottom;
 }
 h1{
     font-family: 'Rubik', sans-serif;
@@ -92,6 +95,10 @@ ul{
 .bottom-banner{
     /* border: 1px solid red; */
     height: 500px;
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: 100px;
+    background-size: inherit;
 }
 .left-box{
     width: 40%;
@@ -100,6 +107,8 @@ ul{
     height: 300px;
     margin-left: 7%;
     box-shadow: 5px 5px 30px gray;
+    border-radius: 5px;
+    background-color: white;
 }
 .right-box{
     width: 40%;
@@ -109,6 +118,8 @@ ul{
     margin-left: 6%;
     margin-right: 6%;
     box-shadow: 5px 5px 30px gray;
+    border-radius: 5px;
+    background-color: white;
 }
 .resources{
     margin-left: 5%;
@@ -128,4 +139,7 @@ ul{
 .box-content{
     padding-left: 20px;
     padding-right: 20px;
+}
+.make-gap li{
+    margin-bottom: 25px;
 }
