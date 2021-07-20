@@ -109,6 +109,10 @@ ul{
     box-shadow: 5px 5px 30px gray;
     border-radius: 5px;
     background-color: white;
+    border-image: linear-gradient(180deg, tomato, salmon);
+    border-image-slice: 1;
+    border-left: 5px solid;
+    /* color: peru; */
 }
 .right-box{
     width: 40%;
@@ -120,6 +124,9 @@ ul{
     box-shadow: 5px 5px 30px gray;
     border-radius: 5px;
     background-color: white;
+    border-left: 5px solid;
+    border-image: linear-gradient(0deg, cyan, teal);
+    border-image-slice: 1;
 }
 .resources{
     margin-left: 5%;
@@ -142,4 +149,7 @@ ul{
 }
 .make-gap li{
     margin-bottom: 25px;
+}
+.box-content ul li:hover{
+    font-size: x-large;
 }
