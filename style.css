@@ -3,6 +3,7 @@ body{
     background-image: url(city-background.png);
     background-repeat: repeat-x;
     background-position-y: bottom;
+    font-family: 'Rubik', sans-serif;
 }
 h1{
     font-family: 'Rubik', sans-serif;
@@ -68,7 +69,7 @@ ul{
 .mid-banner{
     /* border: 1px solid orange; */
     background-image: url("dream-bg.png");
-    height: 650px;
+    height: 600px;
     background-repeat: no-repeat;
     background-position:right
 }
@@ -91,6 +92,16 @@ ul{
     width: 49%;
     float: left;
     height: 150px;
+}
+.half-one{
+    height: 300px;
+}
+.box{
+    height: 80%;
+    overflow-y: auto;
+}
+.resuume{
+    margin-top: 40px;
 }
 .bottom-banner{
     /* border: 1px solid red; */
@@ -153,3 +164,42 @@ ul{
 .box-content ul li:hover{
     font-size: x-large;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: rgb(156, 214, 206); 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(56, 161, 156); 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background:rgb(3, 95, 95); 
+  }
