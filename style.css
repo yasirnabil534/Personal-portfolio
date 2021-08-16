@@ -4,6 +4,8 @@ body{
     background-repeat: repeat-x;
     background-position-y: bottom;
     font-family: 'Rubik', sans-serif;
+    flex-direction: column;
+    justify-content: space-between;
 }
 h1{
     font-family: 'Rubik', sans-serif;
@@ -31,6 +33,8 @@ ul{
     width: 40%;
     float: left;
     margin-left: 5%;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 .half-width h3{
     color: purple;
@@ -45,8 +49,9 @@ ul{
 .top-banner{
     /* border: 1px solid orange; */
     background-image: url("top-banner.png");
-    height: 550px;
+    height: fit-content;
     background-repeat: no-repeat;
+    margin-bottom: 45px;
 }
 .link-button{
     text-decoration: none;
@@ -69,14 +74,17 @@ ul{
 .mid-banner{
     /* border: 1px solid orange; */
     background-image: url("dream-bg.png");
-    height: 600px;
+    height: fit-content;
     background-repeat: no-repeat;
-    background-position:right
+    background-position:right;
+    margin-bottom: 45px;
 }
 .half-width-2{
     width: 40%;
     float: left;
     margin-left: 5%;
+    display: flex;
+    flex-direction: column;
 }
 .half-width-2 h2{
     color: royalblue;
@@ -89,7 +97,7 @@ ul{
     padding-left: 5%;
 }
 .half-width-3{
-    width: 49%;
+    width: 45%;
     float: left;
     height: 150px;
 }
@@ -101,7 +109,7 @@ ul{
     overflow-y: auto;
 }
 .resuume{
-    margin-top: 40px;
+    margin-top: 5px;
 }
 .bottom-banner{
     /* border: 1px solid red; */
@@ -164,8 +172,13 @@ ul{
 .box-content ul li:hover{
     font-size: x-large;
 }
-
-
+.flexbox{
+    display: flex;
+}
+.flexbox-2{
+    display: flex;
+    justify-content: space-between;
+}
 
 
 
